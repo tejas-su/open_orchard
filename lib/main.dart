@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       designSize: const Size(1920, 1080),
       splitScreenMode: true,
       child: MaterialApp(
-          title: 'deetsinsider',
+          title: 'openorchard',
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
             scaffoldBackgroundColor: const Color.fromRGBO(245, 255, 250, 1),
