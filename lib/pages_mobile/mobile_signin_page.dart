@@ -90,7 +90,7 @@ class MobileSignInPage extends StatelessWidget {
                         height: 20.h,
                       ),
                       const Text(
-                        'Invites are only allowed at the moment!',
+                        'Invites are only accepted at the moment!',
                         style: TextStyle(fontSize: 10),
                       )
                     ],

@@ -89,7 +89,7 @@ class DeskTopSignInPage extends StatelessWidget {
                           height: 20.h,
                         ),
                         Text(
-                          'Invites are only allowed at the moment!',
+                          'Invites are only accepted at the moment!',
                           style: TextStyle(fontSize: 18.sp),
                         )
                       ],

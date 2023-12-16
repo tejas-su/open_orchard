@@ -44045,7 +44045,7 @@ d=e.a.a/d.a
 f=50*Math.min(d,f.gex())
 f=A.iQ(new A.as(f,f))
 e=t.d
-return A.aru(A.arD(A.vz(A.a([A.arr(A.a([new A.cY(b,r,c),A.nq(c,A.lo(A.vz(A.a([new A.cY(B.mo,p,c),new A.cY(new A.aM(o,0,n,0),m,c),k,new A.cY(new A.aM(l,0,j,0),i,c),g,A.nq(c,A.lo(A.il("Signin",c,c,c,A.hr(c,c,B.j,c,c,c,c,c,c,c,c,$.bG().fe(30),c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c),c,c),B.A,c,new A.db(B.l,c,c,f,c,c,B.aL),80*h,c,c,730*d),A.ez(c,20*$.bG().gex(),c),A.il("Invites are only allowed at the moment!",c,c,c,A.hr(c,c,c,c,c,c,c,c,c,c,c,$.bG().fe(18),c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)],e),B.ca,B.K8,B.cS),c,c),B.A,c,B.zO,1080*s,c,c,830*(a.a.a/q.a))],e),B.K9,B.cS)],e),B.ca,B.cR,B.cS)))}}
+return A.aru(A.arD(A.vz(A.a([A.arr(A.a([new A.cY(b,r,c),A.nq(c,A.lo(A.vz(A.a([new A.cY(B.mo,p,c),new A.cY(new A.aM(o,0,n,0),m,c),k,new A.cY(new A.aM(l,0,j,0),i,c),g,A.nq(c,A.lo(A.il("Signin",c,c,c,A.hr(c,c,B.j,c,c,c,c,c,c,c,c,$.bG().fe(30),c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c),c,c),B.A,c,new A.db(B.l,c,c,f,c,c,B.aL),80*h,c,c,730*d),A.ez(c,20*$.bG().gex(),c),A.il("Invites are only accepted at the moment!",c,c,c,A.hr(c,c,c,c,c,c,c,c,c,c,c,$.bG().fe(18),c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c)],e),B.ca,B.K8,B.cS),c,c),B.A,c,B.zO,1080*s,c,c,830*(a.a.a/q.a))],e),B.K9,B.cS)],e),B.ca,B.cR,B.cS)))}}
 A.IM.prototype={
 R(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=null,d=$.bG(),c=d.d
 c===$&&A.b()
@@ -86551,7 +86551,7 @@ B.SK=new A.p(!0,B.j,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.So=new A.p(!0,B.j,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.Ty=new A.dx(B.S7,B.Th,B.T2,B.QY,B.SV,B.S5,B.Tj,B.Rl,B.RO,B.SO,B.QQ,B.T3,B.SS,B.SK,B.So)
 B.RL=new A.p(!0,null,null,null,null,null,10,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Tz=new A.tc("Invites are only allowed at the moment!",null,B.RL,null,null,null,null,null,null)
+B.Tz=new A.tc("Invites are only accepted at the moment!",null,B.RL,null,null,null,null,null,null)
 B.X3=new A.aax(0,"system")
 B.LK=new A.j(0.056,0.024)
 B.LA=new A.j(0.108,0.3085)
