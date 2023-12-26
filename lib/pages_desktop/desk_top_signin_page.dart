@@ -4,6 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import '../themes/themes.dart';
+import 'home_page.dart';
 
 class DeskTopSignInPage extends StatelessWidget {
   const DeskTopSignInPage({super.key});
@@ -71,17 +72,23 @@ class DeskTopSignInPage extends StatelessWidget {
                         SizedBox(
                           height: 20.h,
                         ),
-                        Container(
-                          height: 80.h,
-                          width: 730.w,
-                          decoration: BoxDecoration(
-                              color: black,
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(50.r))),
-                          child: Center(
-                            child: Text(
-                              'Signin',
-                              style: TextStyle(color: white, fontSize: 30.sp),
+                        GestureDetector(
+                          onTap: () =>
+                              Navigator.of(context).push(MaterialPageRoute(
+                            builder: (context) => const HomePage(),
+                          )),
+                          child: Container(
+                            height: 80.h,
+                            width: 730.w,
+                            decoration: BoxDecoration(
+                                color: black,
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(50.r))),
+                            child: Center(
+                              child: Text(
+                                'Signin',
+                                style: TextStyle(color: white, fontSize: 30.sp),
+                              ),
                             ),
                           ),
                         ),

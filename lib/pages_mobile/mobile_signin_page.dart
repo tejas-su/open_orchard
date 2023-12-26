@@ -1,8 +1,10 @@
+import 'package:deets_insider/pages_mobile/home_page.dart';
+import '../widgets/text_input.dart';
+import '../widgets/cta_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
-import '../themes/themes.dart';
 
 class MobileSignInPage extends StatelessWidget {
   const MobileSignInPage({super.key});
@@ -14,7 +16,7 @@ class MobileSignInPage extends StatelessWidget {
         child: Column(
           children: [
             const SizedBox(
-              height: 10,
+              height: 50,
             ),
             Padding(
               padding: const EdgeInsets.only(bottom: 20.0),
@@ -43,55 +45,32 @@ class MobileSignInPage extends StatelessWidget {
                             style: GoogleFonts.notoSerifDisplay(
                                 fontSize: 200.sp, fontWeight: FontWeight.bold)),
                       ),
-                      Padding(
-                        padding: EdgeInsets.only(left: 50.0.sp, right: 50.sp),
-                        child: TextField(
-                          decoration: InputDecoration(
-                              hintText: 'open_orchard@orchard.com',
-                              border: OutlineInputBorder(
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(50.r)))),
-                        ),
+                      const TextInput(
+                        hintText: 'open_orchard@orchard.com',
+                        obscureText: false,
                       ),
                       SizedBox(
                         height: 20.h,
                       ),
-                      Padding(
-                        padding: EdgeInsets.only(left: 50.sp, right: 50.sp),
-                        child: TextField(
+                      const TextInput(
+                          hintText: 'Password',
                           obscureText: true,
-                          decoration: InputDecoration(
-                              hintText: 'Password',
-                              border: OutlineInputBorder(
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(50.r)))),
-                        ),
-                      ),
+                          suffixIcon: Icon(Icons.lock_rounded)),
                       SizedBox(
                         height: 20.h,
                       ),
-                      Padding(
-                        padding: EdgeInsets.only(left: 50.sp, right: 50.sp),
-                        child: Container(
-                          height: 80.h,
-                          decoration: BoxDecoration(
-                              color: black,
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(50.r))),
-                          child: Center(
-                            child: Text(
-                              'Signin',
-                              style: TextStyle(color: white, fontSize: 80.sp),
-                            ),
-                          ),
-                        ),
-                      ),
+                      GestureDetector(
+                          onTap: () =>
+                              Navigator.of(context).push(MaterialPageRoute(
+                                builder: (context) => const HomePageMobile(),
+                              )),
+                          child: const CtaButton(text: 'Signin')),
                       SizedBox(
                         height: 20.h,
                       ),
                       const Text(
                         'Invites are only accepted at the moment!',
-                        style: TextStyle(fontSize: 10),
+                        style: TextStyle(fontSize: 15),
                       )
                     ],
                   )),
